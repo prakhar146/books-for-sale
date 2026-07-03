@@ -1,0 +1,9 @@
+# Python virtual env used only to extract images from the PDF
+.venv/
+
+# Source PDF (large, not needed for the website)
+books.pdf
+*.pdf
+
+# OS junk
+.DS_Store

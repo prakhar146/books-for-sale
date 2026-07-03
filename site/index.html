@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Books for Sale</title>
+  <meta name="description" content="Pre-loved books for sale — DM on Instagram to buy." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Books for a New Home 📚</h1>
+    <p class="tagline">
+      Pre-loved books looking for readers.
+      See one you like? Tap <strong>DM on Instagram</strong> and I'll share the price.
+    </p>
+    <div class="controls">
+      <input type="search" id="search" placeholder="Search by title or author…" aria-label="Search books" />
+      <label class="hide-sold">
+        <input type="checkbox" id="hideSold" /> Hide sold books
+      </label>
+    </div>
+    <p class="count" id="count"></p>
+  </header>
+
+  <main>
+    <div class="grid" id="grid"></div>
+    <p class="empty" id="empty" hidden>No books match your search.</p>
+  </main>
+
+  <footer class="site-footer">
+    <p>Prices on request • Payment &amp; pickup details over Instagram DM</p>
+  </footer>
+
+  <div id="toast" role="status" aria-live="polite"></div>
+
+  <script src="books.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
