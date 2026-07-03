@@ -1,7 +1,7 @@
 // ---- Your Instagram username -------------------------------------------
 // Replace the placeholder with your real Instagram handle (no @, no URL).
 // Example: "prakhar.reads"
-const INSTAGRAM_USERNAME = "your_handle_here"; // <-- CHANGE THIS
+const INSTAGRAM_USERNAME = "nprjindal"; // <-- CHANGE THIS
 // ------------------------------------------------------------------------
 // Note: Instagram has no way to pre-fill a DM message from a link. So tapping
 // the button copies a ready-made message to the clipboard AND opens your
