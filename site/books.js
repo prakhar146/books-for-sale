@@ -4,7 +4,7 @@
 //   sold  : set to true to grey-out + disable the WhatsApp button; false to relist.
 //   img   : the photo filename in images/ — don't change unless you rename a file.
 const BOOKS = [
-  { title: "Christmas Fairytales", note: "Nora Roberts", sold: false, img: "book-001.jpg" },
+  { title: "Christmas Fairytales", note: "Nora Roberts", sold: true, img: "book-001.jpg" },
   { title: "The Mystery of the Hidden House", note: "Enid Blyton", sold: false, img: "book-002.jpg" },
   { title: "The Financial Expert", note: "R.K. Narayan", sold: false, img: "book-003.jpg" },
   { title: "Milk and Honey", note: "Rupi Kaur", sold: false, img: "book-004.jpg" },
