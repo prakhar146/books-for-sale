@@ -1,0 +1,6 @@
+# Netlify configuration — keeps deploys correct without touching the dashboard.
+[build]
+  # The website files live in the site/ subfolder, not the repo root.
+  publish = "site"
+  # No build step — it's plain HTML/CSS/JS.
+  command = ""
